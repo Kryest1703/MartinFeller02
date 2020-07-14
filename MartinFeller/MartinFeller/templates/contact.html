@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <body class="middle">
+        <img src="/static/content/fellerlogo.png">
+        <br />
+        <div class="container2">
+            <img src="/static/content/martinfeller.jpg" class="image">
+            <div class="overlay">
+                <div class="text "><button onclick="location.href='/home'" class="button"><b>HOME</b></button></div>
+                <div class="text2"><button onclick="location.href='/merch'" class="button" disabled><b>MERCH</b></button></div>
+                <div class="text3"><button onclick="location.href='/contact'" class="button"><b>CONTACT</b></button></div>
+            </div>
+        </div>
+        <div class="headtextbox" id="emailbox">
+            <address>
+                <strong>Email:</strong>   <a href="mailto:martinfellderofficial@gmail.com">Martinfellderofficial@gmail.com</a><br />
+            </address>
+        </div>
+    </body>
+        {% endblock %}
